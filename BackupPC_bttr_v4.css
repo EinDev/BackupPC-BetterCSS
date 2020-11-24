@@ -411,6 +411,10 @@ div[class="NavMenu"] + div[class="NavMenu"] {
 	content:"\f1de";
 }
 
+.NavMenu a[href^="/backuppc/doc/"]:before {
+        content:"\f02d";
+}
+
 #Content {
 	background:var(--clr-bg-content);
 	border-bottom:1px solid var(--clr-border);
