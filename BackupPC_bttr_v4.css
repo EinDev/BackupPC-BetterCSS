@@ -36,6 +36,8 @@
 	padding:0;
 	top:0;
 	width:225px;
+	overflow-y: scroll;
+	height: 100%;
 }
 
 body {
@@ -609,18 +611,18 @@ p > table,p > .tableStnd {
 }
 
 input[value="Stop/Dequeue Backup"],input[value="Start Full Backup"],input[value="Start Incr Backup"],input[value="No"],
-input[value="Backup Stoppen/Aussetzen"],input[value="Starte vollstÃ¤ndiges Backup"],input[value="Starte inkrementelles Backup"],input[value="Nein"] {
+input[value="Backup Stoppen/Aussetzen"],input[value="Starte vollstÃÂ¤ndiges Backup"],input[value="Starte inkrementelles Backup"],input[value="Nein"] {
 	display:block;
 	margin-top:10px;
 }
 
 input[value="Stop/Dequeue Backup"],input[value="Delete"],input[value="No"],
-input[value="Backup Stoppen/Aussetzen"],input[value="LÃ¶schen"],input[value="Nein"] {
+input[value="Backup Stoppen/Aussetzen"],input[value="LÃÂ¶schen"],input[value="Nein"] {
 	background:var(--clr-warn);
 }
 
 input[value="Stop/Dequeue Backup"]:hover,input[value="Delete"]:hover,input[value="No"]:hover,
-input[value="Backup Stoppen/Aussetzen"]:hover,input[value="LÃ¶schen"]:hover,input[value="Nein"]:hover {
+input[value="Backup Stoppen/Aussetzen"]:hover,input[value="LÃÂ¶schen"]:hover,input[value="Nein"]:hover {
 	background:var(--clr-warn-hover);
 }
 
@@ -633,4 +635,5 @@ form[name="StartStopForm"] > input {
 #logo-container {
 	display: none;
 }
+
 
