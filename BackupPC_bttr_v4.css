@@ -1,8 +1,10 @@
-@import url('https://raw.githubusercontent.com/necolas/normalize.css/master/normalize.css');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css');
 @import url('https://fonts.googleapis.com/css?family=Asap+Condensed:400');
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600');
 @import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700');
-@import url('https://use.fontawesome.com/releases/v5.0.13/css/all.css');
+@import url('https://use.fontawesome.com/releases/v5.15.1/css/fontawesome.css');
+@import url('https://use.fontawesome.com/releases/v5.15.1/css/brands.css');
+@import url('https://use.fontawesome.com/releases/v5.15.1/css/solid.css');
 
 :root {
 	--clr-bg-body:#f3f3f4;
@@ -411,9 +413,27 @@ div[class="NavMenu"] + div[class="NavMenu"] {
 	content:"\f1de";
 }
 
-.NavMenu a[href^="/backuppc/doc/"]:before {
-        content:"\f02d";
+.NavMenu a[href^="#top"]:before {
+	content:"\f3bf";
 }
+
+.NavMenu a[href^="/backuppc/doc/"]:before {
+        content:"\f067";
+}
+
+.NavMenu a[href^="https://github.com/backuppc/backuppc/wiki"]:before {
+        content:"\f518";
+}
+
+.NavMenu a[href^="/backuppc/index.cgi?action=status"]:before {
+        content:"\f1fe";
+}
+
+.NavMenu a[href^="https://backuppc.github.io/backuppc"]:before {
+    content:"\f09b";
+    font-family:"Font Awesome 5 Brands";
+}
+
 
 #Content {
 	background:var(--clr-bg-content);
@@ -589,18 +609,18 @@ p > table,p > .tableStnd {
 }
 
 input[value="Stop/Dequeue Backup"],input[value="Start Full Backup"],input[value="Start Incr Backup"],input[value="No"],
-input[value="Backup Stoppen/Aussetzen"],input[value="Starte vollständiges Backup"],input[value="Starte inkrementelles Backup"],input[value="Nein"] {
+input[value="Backup Stoppen/Aussetzen"],input[value="Starte vollstÃ¤ndiges Backup"],input[value="Starte inkrementelles Backup"],input[value="Nein"] {
 	display:block;
 	margin-top:10px;
 }
 
 input[value="Stop/Dequeue Backup"],input[value="Delete"],input[value="No"],
-input[value="Backup Stoppen/Aussetzen"],input[value="Löschen"],input[value="Nein"] {
+input[value="Backup Stoppen/Aussetzen"],input[value="LÃ¶schen"],input[value="Nein"] {
 	background:var(--clr-warn);
 }
 
 input[value="Stop/Dequeue Backup"]:hover,input[value="Delete"]:hover,input[value="No"]:hover,
-input[value="Backup Stoppen/Aussetzen"]:hover,input[value="Löschen"]:hover,input[value="Nein"]:hover {
+input[value="Backup Stoppen/Aussetzen"]:hover,input[value="LÃ¶schen"]:hover,input[value="Nein"]:hover {
 	background:var(--clr-warn-hover);
 }
 
@@ -613,3 +633,4 @@ form[name="StartStopForm"] > input {
 #logo-container {
 	display: none;
 }
+
