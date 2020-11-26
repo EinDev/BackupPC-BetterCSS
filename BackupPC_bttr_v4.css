@@ -36,7 +36,7 @@
 	padding:0;
 	top:0;
 	width:225px;
-	overflow-y: scroll;
+	overflow-y: auto;
 	height: 100%;
 }
 
@@ -636,4 +636,6 @@ form[name="StartStopForm"] > input {
 	display: none;
 }
 
-
+#NavMenu {
+	height: auto !important;
+}
