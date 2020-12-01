@@ -1,3 +1,6 @@
+# What is different?
+This version has additional tags to include navigation, like a "#top", "#empty", wiki and github link.
+
 # BackupPC-BetterCSS
 A more modern CSS for BackupPC v3 and v4, heavily inspired by INSPINIA Bootstrap Theme. Works best with BackupPC set to English or German. If you use another language be sure to edit the `input[value=]` selectors to your language.
 
